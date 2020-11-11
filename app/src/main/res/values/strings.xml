@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Snake2</string>
+    <string-array name="wielkosci">
+        <item>8x8</item>
+        <item>9x9</item>
+        <item>10x10</item>
+        <item>11x11</item>
+        <item>12x12</item>
+        <item>13x13</item>
+        <item>14x14</item>
+    </string-array>
+    <string-array name="plansze">
+        <item>0 ścian wewnątrz</item>
+        <item>1 ścian wewnątrz</item>
+        <item>2 ścian wewnątrz</item>
+        <item>3 ścian wewnątrz</item>
+        <item>4 ścian wewnątrz</item>
+    </string-array>
+</resources>

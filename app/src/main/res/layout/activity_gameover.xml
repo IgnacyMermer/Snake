@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/black"
+        android:text="Twój wynik:"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/wynikTekst"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/wynikTekst"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/wynikPole"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/wynikPole"
+        android:gravity="center"
+        android:text="Powodem przegranej było"
+        android:textSize="23dp"
+        android:id="@+id/powodPrzegranej"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/powodPrzegranej"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Rozpocznij ponownie"
+        android:id="@+id/buttonRozpocznijPonownie"/>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/settings"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/ustawienia"/>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/wynik"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/wynikZnaczek"/>
+
+</RelativeLayout>

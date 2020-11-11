@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo2">
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:max="20"
+        android:progress="10"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:progressDrawable="@drawable/seekbar_tlo"
+        android:thumb="@drawable/thumb"
+        android:layout_height="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Szybkość"
+        android:layout_below="@id/seekBar"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"/>
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/zamkniecie"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/buttonZamkniecie"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Rozpocznij od nowa"
+        android:id="@+id/buttonOdNowa"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@id/buttonOdNowa"
+        android:layout_marginBottom="130dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Wznów grę"
+        android:id="@+id/buttonWznow"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@id/buttonWznow"
+        android:layout_marginBottom="130dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Ustawienia"
+        android:id="@+id/buttonUstawienia"/>
+
+</RelativeLayout>
